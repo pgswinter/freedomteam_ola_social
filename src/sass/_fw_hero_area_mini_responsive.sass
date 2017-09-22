@@ -1,0 +1,96 @@
+@import map-get
+@import responsive_for_all
++exports("fw_hero_area_mini_responsive")
+	// Large Screen
+	@media #{$fw-max-2560}
+	@media #{$fw-max-2560-landscape}
+	@media #{$fw-max-2560-portrait}
+	
+	@media #{$fw-max-1920}
+	@media #{$fw-max-1920-landscape}
+	@media #{$fw-max-1920-portrait}
+	
+	@media #{$fw-max-1600}
+		body
+			.body-content
+				section
+					&.hero-area
+						.block
+							h1
+							.img-wrap-cent
+								img
+						article
+							width: 15%
+	@media #{$fw-max-1600-portrait}
+	// Medium Screen
+	@media #{$fw-max-1366}
+	@media #{$fw-max-1366-landscape}
+	@media #{$fw-max-1366-portrait}
+	
+	@media #{$fw-min-1024}
+		body
+			.body-content
+				section
+					&.hero-area
+						.block
+							height: 100%
+							h1
+								display: block
+							.img-wrap-cent
+								img
+									display: none
+	@media #{$fw-max-1024}
+		body
+			.body-content
+				section
+					&.hero-area
+						position: relative
+	@media #{$fw-max-1024-landscape}
+		body
+			.body-content
+				section
+					&.hero-area
+						height: 100vh
+						.block
+							height: 100%
+							.img-wrap-cent
+								img
+									display: none
+	@media #{$fw-max-1024-portrait}
+		body
+			.body-content
+				section
+					h1
+						width: 80%
+					&.hero-area
+						height: 50vh
+						.block
+							height: 100%
+							position: relative
+							.img-wrap-cent
+								img
+									display: none
+						article
+							
+	// Small Screen
+	@media #{$fw-max-768}
+		body
+			.body-content
+				section
+					h1
+						font-size: 20pt
+					&.hero-area
+						.block
+							.img-wrap-cent
+								img
+						article
+	@media #{$fw-max-768-landscape}
+	@media #{$fw-max-768-portrait}
+	
+	@media #{$fw-max-568}
+	@media #{$fw-max-568-landscape}
+	@media #{$fw-max-568-portrait}
+	// extra small Screen
+	@media #{$fw-max-320}
+	@media #{$fw-max-320-landscape}
+	@media #{$fw-max-320-portrait}
