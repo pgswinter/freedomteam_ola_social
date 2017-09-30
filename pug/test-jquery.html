@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="basic-jquery--container">
+			hello world!
+		</div>
+	</div>
+	<script type="text/javascript">
+		$.fn.iText = function(){
+			var me = $(this);
+			console.log(me);
+		}
+		$('.container').iText();
+	</script>
+</body>
+</html>
