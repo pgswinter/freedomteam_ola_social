@@ -2,6 +2,7 @@
 @import common
 +exports("fw_news")
 	.fw_news
+
 		h2
 			font-weight: bold
 			text-align: center
@@ -9,8 +10,9 @@
 			padding-bottom: 30px
 			font-size: 26pt
 			text-transform: none
+
 		article
-			border: 2px solid map-get($amaris-color-hot,2)
+			border: 2px solid map-get($fw-color-hot,2)
 			padding-bottom: 15pt
 			a
 				text-decoration: none
@@ -18,7 +20,7 @@
 				font-size: 16pt
 				font-weight: bold
 				margin-bottom: 0
-				font-family: map-get($amaris-font-segoe,1)
+				font-family: map-get($fw-font-segoe,1)
 				padding-top: 15px
 			.img-wrap
 				width: 100%
@@ -64,7 +66,7 @@
 					font-weight: normal
 					font-style: normal
 					text-transform: uppercase
-					color: map-get($amaris-color-hot,2)
+					color: map-get($fw-color-hot,2)
 				label
 					text-transform: capitalize
 					color: #555
