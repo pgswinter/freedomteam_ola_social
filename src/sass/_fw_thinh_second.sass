@@ -1,0 +1,79 @@
+@import map-get
+@import common
++exports("fw_thinh_second")
+	.fw_thinh_second
+		a
+			display: block
+		p
+			line-height: 1.5
+			margin-bottom: 0
+			font-size: 11pt
+		h1
+			padding-left: 15px
+		h1,
+		h2
+			padding-top: 0
+			padding-bottom: 0
+			margin-top: 0
+			color: #555
+		h1
+			margin-bottom: 15px
+		h2
+			margin-bottom: 10px
+		// div[class*="col-"],
+		// div[class^="col-"]
+		// 	padding-left: 0
+		// 	padding-right: 0
+		.fw_divHeader2__fw_thinh_second
+			@extend .set-padding-around
+			p
+				text-align: justify
+			.divNPM__fw_divHeader2
+				@extend .set-full-width-img
+			.divDocument__fw_divHeader2
+				button
+	    			@extend .thinh-btn
+	    			position: relative
+	    			margin-top: 15px
+		.fw_divContent2__fw_thinh_second
+			// float: left
+			// margin-bottom: 1%
+			.divSubport__fw_divContent2
+				h2,
+				p
+					text-align: center
+				a
+					cursor: pointer
+					text-align: center	
+				button
+				    @extend .thinh-btn
+	    			position: relative
+	    			margin: 0 auto
+	    			margin-top: 15px
+		.fw_divFooter2__fw_thinh_second
+			padding: 2% 4% 1% 4%
+			.divComponents__fw_divFooter2,
+			.divTon__fw_divFooter2,
+			.divSource__fw_divFooter2
+				text-align: center
+				line-height: 25px	
+				img
+				    margin-left: auto;
+				    margin-right: auto;
+				    display: block;
+				h2
+					text-align: center
+			.img-wrap
+				height: 130px
+				position: relative
+				img
+					width: 100px
+					@extend .god-center
+			.square-text
+				width: 70%
+				margin: 0 auto
+				p
+					text-align: justify
+
+
+					    
